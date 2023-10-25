@@ -1,0 +1,41 @@
+.LandingPage {
+    background-color: #b3c1f5db ;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 13px 86px -28px inset;
+    align-items: center;
+    justify-content: center;
+}
+
+.insidebox {
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: max-content;
+
+
+}
+
+.insidebox h2{
+margin-top: -6%;
+position:sticky;
+font-family: monospace;
+display: flex;
+}
+
+.buttonspace{
+    
+  display: flex;
+  margin-top: 3%;
+   width: 32vw; 
+  justify-content: space-between;
+
+}
+
+.buttonspace button{
+  
+    justify-content: space-between;
+  }
